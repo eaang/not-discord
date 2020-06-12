@@ -23,7 +23,12 @@
   display: inline-block;
 }
 .name-link {
-  background-color: #1a2a33;
+  background-color: #22313a;
   border-radius: 3px;
   padding: 0px 2px;
+  text-decoration: none;
+}
+.name-link:hover {
+  background-color: #213d4b;
+  text-decoration: none;
 }

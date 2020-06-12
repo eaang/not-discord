@@ -5,12 +5,21 @@
 .workspaces-sidebar {
   text-align: center;
   width: 75px;
-  color: white;
   background-color: #1A1D21;
+}
+.workspaces-sidebar a {
+  color: white;
+}
+.workspaces-sidebar a:hover {
+  text-decoration: none;
+  color: white;
 }
 .workspace h2 {
   opacity: .5;
   font-size: 18px;
+}
+.workspace h2:hover {
+  opacity: 1;
 }
 .workspace.active h2 {
   opacity: 1;

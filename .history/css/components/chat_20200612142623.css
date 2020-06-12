@@ -1,0 +1,12 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.chat .header i {
+  font-size: 20px;
+}
+.chat-picture img {
+ width: 40px;
+ border-radius: 4px; 
+}

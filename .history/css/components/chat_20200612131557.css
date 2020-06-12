@@ -1,0 +1,12 @@
+.chat-picture img {
+ width: 40px;
+ border-radius: 4px; 
+}
+.chat-input {
+  position: sticky;
+  bottom: 0;
+}
+.chat .header {
+  position: sticky;
+  top: 0;  
+}

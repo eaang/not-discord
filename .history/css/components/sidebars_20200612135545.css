@@ -1,0 +1,10 @@
+.channels-sidebar {
+  width: 200px;
+}
+.sublist-title {
+  display: flex;
+  justify-content: space-between;
+}
+.sublist {
+  margin-top: 24px;
+}

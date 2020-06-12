@@ -1,0 +1,15 @@
+.chat-picture img {
+ width: 40px;
+ border-radius: 4px; 
+}
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+.chat-picture {
+  margin-right: 15px;
+}
+.chat-text {
+  display: flex;
+  align-items: flex-start;
+}

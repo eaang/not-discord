@@ -1,0 +1,39 @@
+.channels-sidebar {
+  width: 200px;
+  color: white;
+  background-color: #4B3949;
+}
+.sublist-title {
+  display: flex;
+  justify-content: space-between;
+}
+.sublist {
+  margin-top: 24px;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.badge-online {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #1FE5BD;
+	margin-top: 2px;
+  margin-right: 8px;
+}
+.badge-offline {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+  background-color: white;
+	margin-top: 2px;
+  margin-right: 8px;
+  opacity: .5;
+}
+.user span, .channel span {
+  opacity: .5;
+}
+.channel-active {
+  opacity: 1;
+}

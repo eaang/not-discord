@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Varela"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- TODO: Slack copycat markup -->
+    <div class="d-flex container-fluid">
+      <div class="workspaces-sidebar">
+        <div class="workspace-active"><h2>PL</h2></div>
+        <div class="workspace"><h2>GM</h2></div>
+      </div>
+      <div class="channels-sidebar">
+        <div class="header">
+          <h1>PALS FOR LIFE</h1>
+          <div class="user">
+            <div class="badge-active"></div>
+            <span>Jamaal</span>
+          </div>
+        </div>
+        <div class="channels sublist">
+          <div class="sublist-title">
+            <h3>Channels</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="channel">
+            <i class="fab fa-slack-hash"></i> general-game
+          </div>
+          <div class="channel">
+            <i class="fab fa-slack-hash"></i> general-offtopic
+          </div>
+          <div class="channel">
+            <i class="fab fa-slack-hash"></i> pvp
+          </div>
+          <div class="channel">
+            <i class="fab fa-slack-hash"></i> pve
+          </div>
+          <div class="channel-active">
+            <i class="fab fa-slack-hash"></i> raid
+          </div>
+          <div class="channel">
+            <i class="fab fa-slack-hash"></i> raid-strat
+          </div>
+          <div class="channel">
+            <i class="fab fa-slack-hash"></i> officer-chat
+          </div>
+        </div>
+        <div class="messages sublist">
+          <div class="sublist-title">
+            <div class="sidebar-title"><h3>Direct Messages</h3></div>
+            <h3>+</h3>
+          </div>
+          <div class="user">
+            <div class="badge"><span class="user-active"></span></div>
+            <div class="name-default">Ritter</div>
+          </div>
+          <div class="user">
+            <div class="badge"><span class="user-active"></span></div>
+            <div class="name-default">Forekin</div>
+          </div>
+          <div class="user">
+            <div class="badge"><span class="user-active"></span></div>
+            <div class="name-default">Abduhl</div>
+          </div>
+          <div class="user">
+            <div class="badge"><span class="user-default"></span></div>
+            <div class="name-default">Therien</div>
+          </div>
+          <div class="user">
+            <div class="badge"><span class="user-away"></span></div>
+            <div class="name-default">Dives</div>
+          </div>
+          <div class="user">
+            <div class="badge"><span class="user-away"></span></div>
+            <div class="name-default">Crushim</div>
+          </div>
+        </div>
+      </div>
+      <div class="chat container">
+        <div class="header">
+          <i class="fab fa-slack-hash"></i> raid
+        </div>
+        <div class="messages"></div>
+        <div class="input"></div>
+      </div>
+    </div>
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

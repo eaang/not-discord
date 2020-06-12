@@ -1,0 +1,25 @@
+
+.messages {
+  padding-top: 16px;
+}
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+.message .chat-text {
+  display: flex;
+  flex-direction: column;
+}
+.message .chat-text p:first-child {
+  margin: 0;
+}
+.chat-picture {
+  margin-right: 15px;
+}
+.chat-text {
+  display: flex;
+  align-items: flex-start;
+}
+.chat-username {
+  display: inline-block;
+}

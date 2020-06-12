@@ -1,0 +1,14 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #1A1D21;
+  color: #D1D2D3;
+}
+.chat .header i {
+  font-size: 20px;
+}
+.chat-picture img {
+ width: 40px;
+ border-radius: 4px; 
+}

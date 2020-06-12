@@ -1,0 +1,39 @@
+.channels-sidebar {
+  width: 200px;
+  color: white;
+  background-color: #4B3949;
+}
+.workspaces-sidebar {
+  text-align: center;
+  width: 75px;
+  color: white;
+  background-color: #261C25;
+}
+.workspace h2 {
+  opacity: .5;
+  font-size: 18px;
+}
+.workspace.active h2 {
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.sublist-title {
+  display: flex;
+  justify-content: space-between;
+}
+.sublist {
+  margin-top: 24px;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user span, .channel span {
+  opacity: .5;
+}
+.channel-active {
+  opacity: 1;
+}

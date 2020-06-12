@@ -1,0 +1,30 @@
+.channels-sidebar {
+  width: 200px;
+  color: white;
+  background-color: #261C25;
+}
+.workspaces-sidebar {
+  color: white;
+  opacity: .5;
+  background-color: #261C25;
+}
+.workspace-active {
+  opacity: 1;
+}
+.sublist-title {
+  display: flex;
+  justify-content: space-between;
+}
+.sublist {
+  margin-top: 24px;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user span, .channel span {
+  opacity: .5;
+}
+.channel-active {
+  opacity: 1;
+}
